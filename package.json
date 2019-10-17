@@ -1,0 +1,22 @@
+{
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "name": "@chiel/test",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "chiel/actions",
+  "author": "Chiel Kunkels <chiel@kunkels.me>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel -d dist src"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
+  }
+}
